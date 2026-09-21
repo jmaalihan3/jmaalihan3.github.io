@@ -1,0 +1,8 @@
+2026-09-18 19:55 PDT — Finish Portfolio Build
+→ Completed Vite portfolio: deps, tests, build, QA; vanilla JS + content.js config.
+
+2026-09-20 18:53 PDT — plan
+→ Planned local git hygiene (README, prompts.txt, .gitignore, initial commit, no remote).
+
+2026-09-20 18:54 PDT — Local git setup and project hygiene (implement plan)
+→ README, prompts.txt, .env gitignore rules, verify test/build, initial commit.

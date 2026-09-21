@@ -1,0 +1,26 @@
+:root {
+  --color-bg: #0a192f;
+  --color-bg-light: #112240;
+  --color-bg-lighter: #233554;
+  --color-text: #8892b0;
+  --color-text-light: #ccd6f6;
+  --color-heading: #ccd6f6;
+  --color-accent: #64ffda;
+  --color-accent-tint: rgba(100, 255, 218, 0.1);
+
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-mono: 'SF Mono', 'Fira Code', 'Fira Mono', monospace;
+
+  --sidebar-width: 480px;
+  --content-max-width: 900px;
+  --nav-height: 64px;
+
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 1.5rem;
+  --space-lg: 2rem;
+  --space-xl: 4rem;
+
+  --transition: 0.2s ease;
+  --border-radius: 4px;
+}
