@@ -22,7 +22,7 @@ All copy, links, experience, and projects live in a single config file:
 
 [`src/data/content.js`](src/data/content.js)
 
-Replace placeholder values before publishing. Update `<title>` and meta description in [`index.html`](index.html) when you set your name and summary.
+Update `<title>` and the meta description in [`index.html`](index.html) when you change your name or site summary. Keep a local `myinfo.txt` (gitignored) as scratch notes if you like; only `content.js` is used by the site.
 
 ## Project structure
 
@@ -36,7 +36,12 @@ Replace placeholder values before publishing. Update `<title>` and meta descript
 
 ## Publishing
 
-`npm run build` writes static assets to `dist/`. No remote or deploy target is configured yet; host `dist/` on GitHub Pages, Netlify, or similar when ready.
+Production builds go to `dist/` via `npm run build`. **GitHub Pages** deploys automatically on push to `main` using [`.github/workflows/deploy-pages.yml`](.github/workflows/deploy-pages.yml) (build, test, upload artifact, deploy).
+
+- **Live site:** [https://jmaalihan3.github.io/](https://jmaalihan3.github.io/) (user Pages repo `jmaalihan3.github.io`)
+- **Repo settings:** Settings → Pages → Build and deployment → Source: **GitHub Actions**
+
+If you ever move to a **project** repo (not `username.github.io`), set Vite `base: '/<repo-name>/'` in [`vite.config.js`](vite.config.js) and rebuild.
 
 ## Conventions
 

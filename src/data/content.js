@@ -3,13 +3,17 @@
  * Edit this file to update name, links, experience, and projects.
  */
 export default {
-  name: 'Your Name',
+  name: 'Jay Maalihan',
   role: 'Software Engineer',
-  tagline: 'I build accessible, reliable software for the web.',
+  tagline:
+    'Graduate student researching large language models and building systems for education technology.',
   social: [
-    { label: 'GitHub', url: 'https://github.com/yourusername' },
-    { label: 'LinkedIn', url: 'https://linkedin.com/in/yourusername' },
-    { label: 'Email', url: 'mailto:you@example.com' },
+    { label: 'GitHub', url: 'https://github.com/jmaalihan3' },
+    {
+      label: 'LinkedIn',
+      url: 'https://www.linkedin.com/in/jose-maalihan-603758261',
+    },
+    { label: 'Email', url: 'mailto:j.maalihan@gmail.com' },
   ],
   nav: [
     { id: 'about', label: 'About' },
@@ -17,57 +21,47 @@ export default {
     { id: 'projects', label: 'Projects' },
   ],
   about: [
-    'Hi there! I\'m a software engineer who enjoys building thoughtful, well-crafted products. I care about clean code, clear communication, and shipping work that holds up over time.',
-    'Currently, I focus on full-stack web development — from designing APIs and data models to building responsive interfaces. I like working at the intersection of product and engineering, where good UX meets maintainable architecture.',
-    'When I\'m not coding, you can find me reading, exploring new tools, or contributing to open source.',
+    'Computer science graduate student with research experience in large language models and education technology.',
   ],
   experience: [
     {
-      company: 'Example Corp',
-      title: 'Senior Software Engineer',
-      dates: '2022 — Present',
+      company: 'Georgia Institute of Technology',
+      title: 'Graduate Student Tutor',
+      dates: 'Jan 2025 — Present',
       description:
-        'Lead development of customer-facing web applications used by thousands of users daily. Partner with design and product teams to ship features on schedule while maintaining high code quality and test coverage.',
-      tech: ['JavaScript', 'TypeScript', 'React', 'Node.js', 'PostgreSQL'],
+        'Tutor students in graduate-level subjects including parallel algorithms, machine learning, and natural language processing. Work remotely with learners on coursework, problem sets, and conceptual understanding.',
+      tech: ['Parallel Algorithms', 'Machine Learning', 'Natural Language Processing'],
     },
     {
-      company: 'Startup Inc',
-      title: 'Software Engineer',
-      dates: '2019 — 2022',
+      company: 'City College of San Francisco',
+      title: 'Teaching Assistant',
+      dates: 'Jan 2021 — Jun 2024',
       description:
-        'Built and maintained core platform services including authentication, billing, and analytics pipelines. Mentored junior engineers and established frontend testing practices.',
-      tech: ['Python', 'Django', 'Vue.js', 'AWS', 'Docker'],
-    },
-    {
-      company: 'Agency Co',
-      title: 'Junior Developer',
-      dates: '2017 — 2019',
-      description:
-        'Delivered client websites and internal tools for a variety of industries. Gained experience across the stack while collaborating closely with designers and stakeholders.',
-      tech: ['HTML', 'CSS', 'JavaScript', 'PHP', 'WordPress'],
+        'Graded assignments and provided detailed feedback for computer science courses. Hosted weekly office hours to help students understand course material and complete programming assignments.',
+      tech: ['Computer Science', 'Student Mentoring', 'Office Hours'],
     },
   ],
   projects: [
     {
-      title: 'Task Tracker App',
+      title: 'VM vCPU Scheduler & Memory Controller',
       description:
-        'A full-stack task management app with real-time updates, drag-and-drop boards, and team collaboration features. Built to demonstrate clean API design and responsive UI patterns.',
-      url: 'https://github.com/yourusername/task-tracker',
-      tech: ['React', 'Express', 'Socket.io', 'MongoDB'],
+        'Engineered a virtualized CPU scheduler and memory controller to manage resource allocation among concurrent virtual machines. Implemented scheduling and memory-management logic with low-level synchronization and concurrency mechanisms, developing practical experience with virtualization, CPU scheduling, contention, synchronization, resource management, and operating-system architecture.',
+      url: 'https://github.com/jmaalihan3',
+      tech: ['C', 'Virtualization', 'Concurrency', 'Operating Systems'],
     },
     {
-      title: 'Dev Dashboard',
+      title: 'Distributed Store',
       description:
-        'Personal analytics dashboard that aggregates GitHub activity, CI status, and deployment metrics into a single view. Helps track productivity and project health at a glance.',
-      url: 'https://github.com/yourusername/dev-dashboard',
-      tech: ['Next.js', 'TypeScript', 'Chart.js', 'GitHub API'],
+        'Developed a distributed online-store service in C++ using gRPC, implementing a thread pool to concurrently process client requests and asynchronous RPC calls to multiple vendor services. Aggregated and returned results across distributed services while managing concurrency, asynchronous execution, and service communication. Gained hands-on experience with distributed-systems architecture, multithreaded programming, asynchronous RPC, C++ concurrency primitives, and building modular systems with CMake.',
+      url: 'https://github.com/jmaalihan3',
+      tech: ['C++', 'gRPC', 'CMake', 'Multithreading', 'Distributed Systems'],
     },
     {
-      title: 'CLI Productivity Tool',
+      title: 'Medical Imaging Neural Network',
       description:
-        'Command-line utility for automating repetitive development workflows — git branch cleanup, dependency audits, and environment setup scripts.',
-      url: 'https://github.com/yourusername/dev-cli',
-      tech: ['Node.js', 'Commander', 'Chalk'],
+        'Led a research project utilizing generative adversarial networks to augment data for training convolutional neural networks for medical imaging tasks. Using few-shot finetuning methods, demonstrated high classification (97%) test scores for a variety of deep neural networks.',
+      url: 'https://github.com/jmaalihan3',
+      tech: ['Python', 'GANs', 'CNNs', 'Medical Imaging', 'Deep Learning'],
     },
   ],
 };

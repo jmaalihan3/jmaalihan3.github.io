@@ -6,3 +6,9 @@
 
 2026-09-20 18:54 PDT — Local git setup and project hygiene (implement plan)
 → README, prompts.txt, .env gitignore rules, verify test/build, initial commit.
+
+2026-09-20 19:22 PDT — Parse myinfo.txt and fill in content.js
+→ Populated content.js (and index.html meta/title) from myinfo.txt.
+
+2026-10-05 18:28 PDT — Publish portfolio (content + GitHub Pages)
+→ Personal content finalized, myinfo.txt gitignored, Pages deploy workflow, README publishing docs, push to jmaalihan3.github.io.
